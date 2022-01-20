@@ -1,0 +1,6 @@
+---
+- hosts: windows
+  name: This is my role-based playbook
+  tasks:
+    - name: "Rollback this step"
+      debug: "Rolling back this step"
