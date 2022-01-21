@@ -1,6 +1,6 @@
 ---
 - name: open a change request
-  hosts: localhost
+  hosts: student1-ansible-1
   vars:
     change_request:
       severity: 2
