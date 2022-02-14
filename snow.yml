@@ -1,6 +1,6 @@
 ---
 - name: open a change request
-  hosts: student1-ansible-1
+  hosts: "{{ snow_node }}"
   vars:
     change_request:
       severity: 2
